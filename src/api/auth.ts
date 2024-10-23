@@ -1,7 +1,7 @@
 import { loginUser, registerUser } from "../context/AuthContext";
 import axios from "./axios";
 
-// const API = 'http://localhost:3000/api';
+// const API = 'http://localhost:3001/api';
 
 export const registerRequest = async (user: registerUser) => {
   try {

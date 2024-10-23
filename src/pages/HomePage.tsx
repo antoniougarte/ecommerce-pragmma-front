@@ -1,6 +1,12 @@
+import WelcomeComponent from "../components/welcome/Welcome.component";
+import ProductsLayoutComponent from "../components/product/ProductLayout.component";
+
 const HomePage = () => {
   return (
-    <h1>Home page</h1>
+    <>
+      <WelcomeComponent />
+      <ProductsLayoutComponent/>
+    </>
   )
 }
 
